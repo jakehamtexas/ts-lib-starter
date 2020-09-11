@@ -1,0 +1,22 @@
+{
+  "name": "iconcur",
+  "version": "0.0.1",
+  "description": "A lightweight library for resolving promises concurrently, with concurrency limits. I concur!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "concurrency",
+    "limit",
+    "promise",
+    "ts",
+    "js",
+    "typescript",
+    "javascript",
+    "iconcur",
+    "concur"
+  ],
+  "author": "Jake Hamilton",
+  "license": "MIT"
+}
