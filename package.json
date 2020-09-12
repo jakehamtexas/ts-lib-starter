@@ -7,7 +7,7 @@
     "build": "tsc",
     "rebuild": "rm -rf dist && npm run build",
     "build:publish": "npm run rebuild",
-    "test": "echo \"Error: no test specified\" && exit 0",
+    "test": "mocha --require ts-node/register ./test/*.spec.ts",
     "eslint": "eslint '*/**/*.ts'",
     "lint": "npm run eslint -- --quiet --fix",
     "lint:ci": "npm run eslint --max-warnings=1",
@@ -40,6 +40,7 @@
     "lint-staged": "^10.3.0",
     "mocha": "^8.1.3",
     "prettier": "^2.1.1",
+    "ts-node": "^9.0.0",
     "typescript": "^4.0.2"
   },
   "husky": {
@@ -51,7 +52,8 @@
     "*.ts": [
       "bash -c 'npm run build'",
       "npm run lint",
-      "bash -c 'npm run rebuild'"
+      "bash -c 'npm run rebuild'",
+      "npm run test"
     ],
     "*.{ts,md}": "npm run pretty"
   }
