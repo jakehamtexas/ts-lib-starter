@@ -7,8 +7,10 @@
     "build": "tsc",
     "rebuild": "rm -rf dist && npm run build",
     "build:publish": "npm run rebuild",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint '*/**/*.ts' --quiet --fix",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "eslint": "eslint '*/**/*.ts'",
+    "lint": "npm run eslint -- --quiet --fix",
+    "lint:ci": "npm run eslint --max-warnings=1",
     "pretty": "prettier --write"
   },
   "keywords": [
