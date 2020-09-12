@@ -6,8 +6,11 @@ name: Publish
 on: [workflow_dispatch]
 jobs:
   publish-npm:
+<<<<<<< HEAD
     if: github.ref == 'refs/heads/master'
 
+=======
+>>>>>>> a1499f5d2672b05731a78543eadcc39d0639f74d
     runs-on: ubuntu-latest
 
     steps:
