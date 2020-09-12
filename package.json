@@ -1,7 +1,7 @@
 {
-  "name": "iconcur",
+  "name": "ts-lib-starter",
   "version": "0.0.1",
-  "description": "A lightweight library for resolving promises concurrently, with concurrency limits. I concur!",
+  "description": "A starter template for a library written with typescript.",
   "main": "src/index.js",
   "scripts": {
     "build": "tsc",
@@ -14,18 +14,8 @@
     "lint:ci": "npm run eslint --max-warnings=1",
     "pretty": "prettier --write"
   },
-  "keywords": [
-    "concurrency",
-    "limit",
-    "promise",
-    "ts",
-    "js",
-    "typescript",
-    "javascript",
-    "iconcur",
-    "concur"
-  ],
-  "author": "Jake Hamilton",
+  "keywords": [],
+  "author": "Jake Hamilton jakehamtexas@gmail.com",
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.2.12",
