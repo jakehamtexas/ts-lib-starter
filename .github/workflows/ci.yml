@@ -37,6 +37,8 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    on: [workflow_dispatch]
+
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
