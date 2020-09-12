@@ -4,6 +4,8 @@
   "description": "A lightweight library for resolving promises concurrently, with concurrency limits. I concur!",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "build:publish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -18,5 +20,8 @@
     "concur"
   ],
   "author": "Jake Hamilton",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node12": "^1.0.7"
+  }
 }
