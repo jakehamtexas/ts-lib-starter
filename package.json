@@ -12,7 +12,7 @@
     "eslint": "eslint '*/**/*.ts'",
     "lint": "npm run eslint -- --quiet --fix",
     "lint:ci": "npm run eslint --max-warnings=1",
-    "pretty": "prettier --write"
+    "pretty": "prettier --write ."
   },
   "keywords": [],
   "author": "Jake Hamilton jakehamtexas@gmail.com",
@@ -20,6 +20,7 @@
   "devDependencies": {
     "@types/chai": "^4.2.12",
     "@types/mocha": "^8.0.3",
+    "@types/node": "^14.14.22",
     "@typescript-eslint/eslint-plugin": "^4.1.0",
     "@typescript-eslint/parser": "^4.1.0",
     "chai": "^4.2.0",
