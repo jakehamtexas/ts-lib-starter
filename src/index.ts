@@ -1,9 +1,1 @@
-console.log('Daaaayo');
-console.log('Daaaayo');
-console.log('Daaaayo');
-console.log('Daaaayo');
-console.log('Daaaayo');
-console.log('Daaaayo');
-console.log('Daaaayo');
-console.log('Daaaayo');
-console.log('Daaaayo');
+console.log('Hello, world!');
